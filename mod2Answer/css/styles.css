@@ -1,10 +1,6 @@
 /********** Base styles **********/
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+* {
+ box-sizing: border-box;
 }
 
 body{
@@ -14,12 +10,14 @@ body{
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 2em;
 }
 
 p {
   /*border: 1px solid black;*/
   width: 90%;
-  height: 150px;
+  height: 180px;
+  overflow: hidden;
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
@@ -28,8 +26,9 @@ p {
 
 span {
   float: right;
-  border: 1px solid black;
-  font-size: 1.25em;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
   color: white;
   padding-right: 6px;
   padding-left: 6px;
@@ -53,7 +52,8 @@ span {
   background-color: #5bc0de;
 }
 .beef span {
-  background-color: rgb(38, 154, 188)
+  background-color: rgb(38, 154, 188);
+  clear:both;
 }
 
 .sushi {
