@@ -1,0 +1,86 @@
+
+
+/* Section Spacing. */
+.section {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* Section Coloring. */
+.chicken {
+  background-color: #5cb85c;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.beef {
+  background-color: #5bc0de;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.sushi {
+  background-color: #f0ad4e;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#header-nav {
+  background-color: #3097d1;
+  border-radius: 0;
+  border: 0;
+  border-color: #1c73a5;
+}
+#header-nav .navbar-brand a{
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
+}
+
+#header-nav span.icon-bar{
+  background-color: #ffffff;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #3097d1;
+}
+
+.menu-header{
+  margin-bottom: 40px;
+}
+.menu-content{
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#our-menu {
+  padding-top: 15px;
+}
